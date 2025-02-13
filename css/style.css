@@ -657,12 +657,6 @@ header .container nav ul li a:hover {
     border-top: 1px solid #4538545a;
 }
 
-.video {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
 /* End FAQs section */
 /* start opinion section */
 .testimonials {
