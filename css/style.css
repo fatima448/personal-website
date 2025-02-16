@@ -776,6 +776,17 @@ header .container nav ul li a:hover {
 }
 .appointment form select{
     margin: 10px;
+    color: var(--main-color);
+    background-color: #EFEFF0;
+}
+.appointment form select:hover{
+    margin: 10px;
+    color: #EFEFF0;
+    background-color: #4538545a;
+}
+.appointment form input[type="submit"]{
+    background-color: #EFEFF0;
+    color: var(--main-color);
 }
 .appointment form input[type="submit"]:hover{
     background-color: var(--main-color);
