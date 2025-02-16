@@ -30,7 +30,13 @@ html {
     margin-right: auto;
 
 }
-
+a{
+    text-decoration: none;
+    color: var(--main-color);
+}
+a:hover{
+    color: #EFEFF0;
+}
 @media(max-width:768px) {
     .container {
         width: 100%;
