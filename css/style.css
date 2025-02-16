@@ -9,6 +9,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+  
 }
 
 body {
@@ -22,14 +23,6 @@ ul {
 html {
     scroll-behavior: smooth;
 }
-
-.container {
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-
-}
 a{
     text-decoration: none;
     color: var(--main-color);
@@ -37,6 +30,15 @@ a{
 a:hover{
     color: #EFEFF0;
 }
+.container {
+   
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
 @media(max-width:768px) {
     .container {
         width: 100%;
@@ -60,10 +62,7 @@ a:hover{
         width: 1170px;
     }
 }
-a{
-    text-decoration: none;
 
-}
 
 /* Start Header Style */
 header {
@@ -726,7 +725,6 @@ header .container nav ul li a:hover {
     color: rgb(0, 0, 0);
     padding: 15px;
     line-height: 1.4;
-
 }
 
 .testimonials .container .testimonial p {
